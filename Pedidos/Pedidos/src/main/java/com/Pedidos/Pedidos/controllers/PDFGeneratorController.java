@@ -268,7 +268,7 @@ public class PDFGeneratorController {
 
             // CRIAR SISTEMA DE CALCULAR TOTAL E VALOR DO PEDIDO,  POSSIVELMENTE AQUI NESSE FOR
         }
-        for (int i = 0; i < 6; i ++){
+        for (int i = 0; i < 7; i ++){
             addTableCell(table, "", cellColor, font);
         }
         addTableCell(table, calculationTotal(order, products).toString(), cellColor, font);
