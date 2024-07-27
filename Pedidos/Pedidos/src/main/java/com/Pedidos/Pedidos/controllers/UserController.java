@@ -2,6 +2,7 @@ package com.Pedidos.Pedidos.controllers;
 
 
 import com.Pedidos.Pedidos.repositories.ProductsRepository;
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
