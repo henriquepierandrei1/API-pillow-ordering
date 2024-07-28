@@ -6,7 +6,6 @@ import com.Pedidos.Pedidos.dto.ResponseDTO;
 import com.Pedidos.Pedidos.infra.security.TokenService;
 import com.Pedidos.Pedidos.model.User;
 import com.Pedidos.Pedidos.repositories.UserRepository;
-import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
-@Api(value = "Controlador de Autenticação")
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor

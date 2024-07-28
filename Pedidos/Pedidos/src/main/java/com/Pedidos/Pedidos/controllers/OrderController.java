@@ -8,7 +8,7 @@ import com.Pedidos.Pedidos.model.User;
 import com.Pedidos.Pedidos.repositories.OrderRepository;
 import com.Pedidos.Pedidos.repositories.ProductsRepository;
 import com.Pedidos.Pedidos.repositories.UserRepository;
-import io.swagger.annotations.Api;
+
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,6 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Optional;
 
-@Api(value = "Controlador de Order")
 @RestController
 @RequestMapping("/user/order")
 @RequiredArgsConstructor

@@ -5,7 +5,6 @@ import com.Pedidos.Pedidos.infra.security.TokenService;
 import com.Pedidos.Pedidos.model.Products;
 import com.Pedidos.Pedidos.repositories.ProductsRepository;
 import com.Pedidos.Pedidos.services.ProductsService;
-import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@Api(value = "Controlador dos Produtos")
+
 @RestController
 @RequestMapping("/admin")
 @RequiredArgsConstructor
